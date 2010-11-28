@@ -348,5 +348,6 @@ $(info   HOST_ARCH=$(HOST_ARCH))
 $(info   HOST_OS=$(HOST_OS))
 $(info   HOST_BUILD_TYPE=$(HOST_BUILD_TYPE))
 $(info   BUILD_ID=$(BUILD_ID))
+$(info   PRODUCT_LOCALES=$(PRODUCT_LOCALES))
 $(info ============================================)
 endif
