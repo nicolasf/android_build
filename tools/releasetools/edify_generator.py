@@ -258,7 +258,6 @@ class EdifyGenerator(object):
              '       delete("/tmp/%(partition)s.img"));')
             % {'partition': partition, 'fn': fn})
       elif self.info["partition_type"] == "EMMC":
-        partition_type, partition = common.GetTypeAndDevice(mount_point, self.info)
         self.script.append(
             ('package_extract_file("%(fn)s", "%(dir)s%(partition)s");')
             % {'partition': partition, 'fn': fn,
